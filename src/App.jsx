@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Cart,
-  FlexContent,
-  Footer,
-  Hero,
-  Navbar,
-  Sales,
-  Stories,
-} from "../src/components";
+
 import {
   heroapi,
   popularsales,
@@ -17,6 +9,14 @@ import {
   story,
   footerAPI,
 } from "./data/Data.js";
+import Cart from "./components/Cart.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import Sales from "./components/Sales.jsx";
+import FlexContent from "./components/FlexContent.jsx";
+import Stories from "./components/Stories.jsx";
+import Footer from "./components/Footer.jsx";
+
 
 const App = () => {
 return (

@@ -55,7 +55,8 @@ const Cart = () => {
         <div
           className={`blur-effect-theme h-screen max-w-xl w-full absolute right-0`}
         >
-          <CartCount totalQTY={totalQTY}
+          <CartCount
+            totalQTY={totalQTY}
             onCartToggle={onCartToggle}
             onClearCartItems={onClearCartItems}
           />
@@ -79,7 +80,7 @@ const Cart = () => {
                     SubTotal
                   </h1>
                   <h1 className="text-sm rounded bg-theme-cart text-slate-100 px-1 py-0.5">
-                   ${totalAmount}
+                    ${totalAmount}
                   </h1>
                 </div>
                 <div className="grid items-center gap-2">
